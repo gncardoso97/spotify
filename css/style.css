@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	background-color: rgba(0,0,0, 0.6);
+	height: 105px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 150px;
+	margin-top: 25px;
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+	color: white;
+	margin-right:20px;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+li a{
+	color: white;
+}
+
+a{ text-decoration: none; }
+
+nav li a:hover {
+	color: green;
+}
+
+header{
+	text-align:center;
+	color: white;
+	padding-top:300px;
+	background-image: url("../img/bkg1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+	padding-bottom:300px;
+
+}
+
+.btn{
+	color: white;
+	border-radius: 50px;
+	height: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.btn-verde{
+	background-color: #57b55f;
+	width: 500px;
+}
+
+.btn-branco{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid white;
+	width: 450px;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color:black;
+}
+
+
+.slogan{
+
+	font-size: 80px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.guia{
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+	position: absolute;
+}
+.logo{
+	width: 130px;
+	margin-left: 140px;
+	margin-top: 20px;
+
+}
+.section2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+.cx-esquerda {
+	width: 450px;
+	float: left;
+	margin-right: 125px;
+}
+.cx-esquerda p, .cx-direita p{
+	font-size: 17px;
+	margin-bottom: 28px;
+	font-weight: bold;
+}
+.albuns{
+	width: 506px;
+}
+
+.letrona {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.section3{
+	color: white;
+	padding-top: 73px;
+	padding-bottom: 50px;
+	padding-right: 235px;
+	background-image: url("../img/bkg2.jpg");
+	background-size: 100%;
+	height: 499px;
+	background-repeat: no-repeat;
+
+}
+.cx-direita{
+	width: 470px;
+	float: right;
+}
